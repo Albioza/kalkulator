@@ -18,6 +18,8 @@ def sprawdzenieTypu(liczba):
 		liczba = input("Błędna wartość, wprowadź nową wartość: ")
 	if re.match('^-?[0-9]*\.?[0-9]+$',liczba): return float(liczba)
 
+// no i mamy problem
+// konfliktowy komentarz
 #wyświetlenie listy dostępnych operacji
 print("Wybierz operację:")
 print("+ Dodawanie")
